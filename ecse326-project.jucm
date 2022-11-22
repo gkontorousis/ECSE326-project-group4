@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="georgekontorousis" created="November 21, 2022 at 11:44:38 AM EST" modified="November 21, 2022 at 6:41:02 PM EST" specVersion="25" urnVersion="1.27" nextGlobalID="229">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="georgekontorousis" created="November 21, 2022 at 11:44:38 AM EST" modified="November 21, 2022 at 7:03:57 PM EST" specVersion="27" urnVersion="1.27" nextGlobalID="229">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup7" id="7">
       <scenarios name="ScenarioDef8" id="8"/>
@@ -137,11 +137,11 @@
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef85" id="85" x="-1783" y="312" succ="//@urndef/@specDiagrams.2/@connections.0" def="84">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef85" id="85" x="-1791" y="325" succ="//@urndef/@specDiagrams.2/@connections.0" def="84">
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef87" id="87" x="-1660" y="313" succ="//@urndef/@specDiagrams.2/@connections.1" def="86">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef87" id="87" x="-1646" y="315" succ="//@urndef/@specDiagrams.2/@connections.1" def="86">
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
@@ -149,11 +149,11 @@
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef95" id="95" x="-896" y="206" succ="//@urndef/@specDiagrams.2/@connections.10" def="94">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef95" id="95" x="-873" y="203" succ="//@urndef/@specDiagrams.2/@connections.10" def="94">
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef99" id="99" x="-1536" y="318" succ="//@urndef/@specDiagrams.2/@connections.11" def="98">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef99" id="99" x="-1492" y="314" succ="//@urndef/@specDiagrams.2/@connections.11" def="98">
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
@@ -185,7 +185,7 @@
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef180" id="180" x="-161" y="115" succ="//@urndef/@specDiagrams.2/@connections.22" def="179">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef180" id="180" x="-76" y="116" succ="//@urndef/@specDiagrams.2/@connections.22" def="179">
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
@@ -217,7 +217,7 @@
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef221" id="221" x="50" y="442" def="220">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef221" id="221" x="598" y="121" def="220">
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
@@ -304,6 +304,7 @@
         <label deltaX="30" deltaY="-30"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="225" target="26" link="228"/>
+      <comments description="might be unecessary details" x="-1803" y="347" width="69" height="54" fillColor="255,255,200"/>
     </specDiagrams>
   </urndef>
   <metadata name="_Use0to100EvaluationRange" value="false"/>
