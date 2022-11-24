@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="georgekontorousis" created="November 21, 2022 at 11:44:38 AM EST" modified="November 24, 2022 at 4:53:05 PM EST" specVersion="51" urnVersion="1.27" nextGlobalID="284">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="georgekontorousis" created="November 21, 2022 at 11:44:38 AM EST" modified="November 24, 2022 at 4:54:02 PM EST" specVersion="52" urnVersion="1.27" nextGlobalID="284">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup7" id="7"/>
   </ucmspec>
@@ -12,130 +12,130 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221124-165304050"/>
+      <metadata name="_autoSelected" value="20221124-165400025"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Mall Management" id="23" linksDest="108 269" linksSrc="107" type="Task" refs="24">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221124-165304050"/>
+      <metadata name="_autoSelected" value="20221124-165400025"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Rewards" id="25" description="Can only play the game when in the mall" linksDest="259 260" linksSrc="252" type="Task" decompositionType="Or" refs="26">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221124-165304050"/>
+      <metadata name="_autoSelected" value="20221124-165400025"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Discounts" id="38" linksDest="284" linksSrc="128" type="Task" refs="39">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221124-165304050"/>
+      <metadata name="_autoSelected" value="20221124-165400025"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Registration" id="44" linksSrc="268" type="Task" refs="45">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221124-165304050"/>
+      <metadata name="_autoSelected" value="20221124-165400025"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Edit Store and Mall Information" id="70" linksSrc="108" type="Task" refs="71">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221124-165304050"/>
+      <metadata name="_autoSelected" value="20221124-165400025"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Track Customer Throughput" id="72" linksSrc="269" type="Task" refs="73">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Customer Front" id="76" linksDest="113 141 199 156 256 266" linksSrc="129" type="Task" refs="77">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221124-165304050"/>
+      <metadata name="_autoSelected" value="20221124-165400025"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Interactive Mall Game Map" id="80" linksDest="103 124" linksSrc="126" type="Task" refs="81">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221124-165304050"/>
+      <metadata name="_autoSelected" value="20221124-165400025"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Prize Locations" id="86" linksSrc="103" type="Task" refs="87">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221124-165304050"/>
+      <metadata name="_autoSelected" value="20221124-165400025"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Catch Prizes" id="90" description="Player will encounter suprizes as exploring mall while playing the game, and collect rewards" linksSrc="260" type="Task" refs="91">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221124-165304050"/>
+      <metadata name="_autoSelected" value="20221124-165400025"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Customizable Avatar" id="98" linksSrc="124" type="Task" refs="99">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Parking Availability" id="131" linksSrc="256" type="Task" refs="132">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Browse Stores and Items" id="137" linksDest="183 273" linksSrc="141" type="Task" refs="138">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221124-165304050"/>
+      <metadata name="_autoSelected" value="20221124-165400025"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Redeem Prize" id="171" description="Highlight specific stores (on rotation ?) to incentivize players to visit them with rewards" linksSrc="259" type="Task" refs="172">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221124-165304050"/>
+      <metadata name="_autoSelected" value="20221124-165400025"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="On Sale/Offers" id="179" linksSrc="183" type="Task" refs="180">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Events" id="195" linksDest="206 282" linksSrc="199" type="Task" refs="196">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Trending Events" id="201" description="Promote specific events such as sales, store openings, or store of the week (?)" linksSrc="206" type="Task" refs="202">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Browse Stores by Category" id="216" linksSrc="273" type="Task" refs="217">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221124-165304050"/>
+      <metadata name="_autoSelected" value="20221124-165400025"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Add/Remove Discounts" id="164" description="Not sure if this is a feature or a business agreement between MEC and STM???" linksSrc="284" type="Task" refs="165">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221124-165304050"/>
+      <metadata name="_autoSelected" value="20221124-165400025"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Store/Item Suggestions" id="150" linksSrc="156" type="Task" refs="151">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Standard Mall Map" id="262" linksSrc="266" type="Task" refs="263">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Add to Calendar" id="278" linksSrc="282" type="Task" refs="279">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <links xsi:type="fm:MandatoryFMLink" name="Mandatory103" id="103" refs="//@urndef/@specDiagrams.0/@connections.0" dest="80" src="86" quantitativeContribution="100"/>
     <links xsi:type="fm:MandatoryFMLink" name="Mandatory107" id="107" refs="//@urndef/@specDiagrams.0/@connections.1" dest="15" src="23"/>
@@ -178,6 +178,15 @@
         <kpiEvalValueSet/>
       </evaluations>
       <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="72">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="131">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="150">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="179">
         <kpiEvalValueSet/>
       </evaluations>
     </strategies>
