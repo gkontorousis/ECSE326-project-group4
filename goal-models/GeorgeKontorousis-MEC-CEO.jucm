@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="georgekontorousis" created="November 21, 2022 at 11:44:38 AM EST" modified="November 26, 2022 at 7:53:36 PM EST" specVersion="62" urnVersion="1.27" nextGlobalID="1441">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="georgekontorousis" created="November 21, 2022 at 11:44:38 AM EST" modified="November 26, 2022 at 9:04:34 PM EST" specVersion="76" urnVersion="1.27" nextGlobalID="1936">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup7" id="7"/>
   </ucmspec>
@@ -8,172 +8,181 @@
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
-    <intElements xsi:type="fm:Feature" name="AR Game" id="21" linksDest="126 252" linksSrc="113 1437" type="Task" refs="22 1124">
+    <intElements xsi:type="fm:Feature" name="AR Game" id="21" linksDest="126 252" linksSrc="113 1437 1818" type="Task" refs="22 1124 1552">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221126-184350751"/>
+      <metadata name="_autoSelected" value="20221126-210432906"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Mall Management" id="23" linksDest="108 269" linksSrc="107" type="Task" refs="24">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221126-184350751"/>
+      <metadata name="_autoSelected" value="20221126-210432906"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Rewards" id="25" description="Can only play the game when in the mall" linksDest="259 260" linksSrc="252" type="Task" decompositionType="Or" refs="26">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221126-184350751"/>
+      <metadata name="_autoSelected" value="20221126-210432906"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Discounts" id="38" linksDest="284" linksSrc="128 1438" type="Task" refs="39 1418">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221126-184350751"/>
+      <metadata name="_autoSelected" value="20221126-210432906"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Registration" id="44" linksSrc="268 1439" type="Task" refs="45 1419">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221126-184350751"/>
+      <metadata name="_autoSelected" value="20221126-210432906"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Edit Store and Mall Information" id="70" linksSrc="108" type="Task" refs="71">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221126-184350751"/>
+      <metadata name="_autoSelected" value="20221126-210432906"/>
     </intElements>
-    <intElements xsi:type="fm:Feature" name="Track Customer Throughput" id="72" linksSrc="269" type="Task" refs="73">
+    <intElements xsi:type="fm:Feature" name="Track Customer Throughput" id="72" linksSrc="269 1933" type="Task" refs="73 1932">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Customer Front" id="76" linksDest="113 141 199 156 256 266" linksSrc="129" type="Task" refs="77">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221126-184350751"/>
+      <metadata name="_autoSelected" value="20221126-210432906"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Interactive Mall Game Map" id="80" linksDest="103 124" linksSrc="126" type="Task" refs="81">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221126-184350751"/>
+      <metadata name="_autoSelected" value="20221126-210432906"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Prize Locations" id="86" linksSrc="103" type="Task" refs="87">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221126-184350751"/>
+      <metadata name="_autoSelected" value="20221126-210432906"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Catch Prizes" id="90" description="Player will encounter suprizes as exploring mall while playing the game, and collect rewards" linksSrc="260" type="Task" refs="91">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221126-184350751"/>
+      <metadata name="_autoSelected" value="20221126-210432906"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Customizable Avatar" id="98" linksSrc="124" type="Task" refs="99">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Parking Availability" id="131" linksSrc="256 1434" type="Task" refs="132 1414">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Browse Stores and Items" id="137" linksDest="183 273" linksSrc="141 1440" type="Task" refs="138 1429">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221126-184350751"/>
+      <metadata name="_autoSelected" value="20221126-210432906"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Redeem Prize" id="171" description="Highlight specific stores (on rotation ?) to incentivize players to visit them with rewards" linksSrc="259" type="Task" refs="172">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221126-184350751"/>
+      <metadata name="_autoSelected" value="20221126-210432906"/>
     </intElements>
-    <intElements xsi:type="fm:Feature" name="On Sale/Offers" id="179" linksSrc="183 1431" type="Task" refs="180 1416">
+    <intElements xsi:type="fm:Feature" name="On Sale/Offers" id="179" linksSrc="183 1431 1829" type="Task" refs="180 1416 1679">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
-    <intElements xsi:type="fm:Feature" name="Events" id="195" linksDest="206 282" linksSrc="199 1430" type="Task" refs="196 1417">
+    <intElements xsi:type="fm:Feature" name="Events" id="195" linksDest="206 282" linksSrc="199 1430 1828 1935" type="Task" refs="196 1417 1619">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Trending Events" id="201" description="Promote specific events such as sales, store openings, or store of the week (?)" linksSrc="206" type="Task" refs="202">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Browse Stores by Category" id="216" linksSrc="273" type="Task" refs="217">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221126-184350751"/>
+      <metadata name="_autoSelected" value="20221126-210432906"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Add/Remove Discounts" id="164" description="Not sure if this is a feature or a business agreement between MEC and STM???" linksSrc="284" type="Task" refs="165">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20221126-184350751"/>
+      <metadata name="_autoSelected" value="20221126-210432906"/>
     </intElements>
-    <intElements xsi:type="fm:Feature" name="Store/Item Suggestions" id="150" linksSrc="156 1433" type="Task" refs="151 1415">
+    <intElements xsi:type="fm:Feature" name="Store/Item Suggestions" id="150" linksSrc="156 1433 1830" type="Task" refs="151 1415 1811">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Standard Mall Map" id="262" linksSrc="266 1432" type="Task" refs="263 1413">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Add to Calendar" id="278" linksSrc="282" type="Task" refs="279">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
-    <intElements name="Increase profits" id="313" linksDest="341 664 666" refs="314">
-      <metadata name="_numEval" value="-30"/>
+    <intElements name="Increase profits" id="313" linksDest="341 664" importance="High" importanceQuantitative="100" refs="314">
+      <metadata name="_numEval" value="34"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
+    </intElements>
+    <intElements name="increase mall foot traffic" id="333" linksDest="1820 1831" linksSrc="664" importance="High" importanceQuantitative="75" refs="334 1445">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements name="Minimize cost" id="337" linksDest="1435 1436" linksSrc="341" type="Goal" importance="Low" importanceQuantitative="20" refs="338 1058">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="-55"/>
       <metadata name="_qualEval" value="WeaklyDenied"/>
     </intElements>
-    <intElements name="Increase MEC popularity" id="315" linksSrc="666" refs="316">
+    <intElements name="track mall foot traffic" id="656" linksDest="1933" type="Goal" importance="Low" importanceQuantitative="15" refs="657">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements name="increase mall foot traffic" id="333" linksDest="660" linksSrc="664" refs="334">
-      <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements name="Minimize cost" id="337" linksDest="1435 1436" linksSrc="341" type="Goal" importance="Medium" importanceQuantitative="50" refs="338 1058">
-      <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="-40"/>
-      <metadata name="_qualEval" value="WeaklyDenied"/>
-    </intElements>
-    <intElements name="track foot traffic in-mall" id="656" linksSrc="660" type="Goal" refs="657">
-      <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements name="Offer additional features to users" id="1420" linksDest="1430 1431 1432 1433 1434" linksSrc="1435" type="Goal" importance="Medium" importanceQuantitative="50" refs="1421">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements name="Produce standard app for mall" id="1422" linksDest="1437 1438 1439 1440" linksSrc="1436" type="Goal" importance="High" importanceQuantitative="100" refs="1423">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
+    <intElements name="Softgoal1444" id="1444">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
+    </intElements>
+    <intElements name="Provide fun experience to mall goers" id="1812" linksDest="1818 1935" linksSrc="1820" type="Goal" importance="High" importanceQuantitative="100" refs="1813">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements name="Promote MEC to mall goers" id="1822" linksDest="1828 1829 1830" linksSrc="1831" type="Goal" importance="Medium" importanceQuantitative="50" refs="1823">
+      <metadata name="_addAggregate" value="disable"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
     <actors name="MEC CEO" id="287" contRefs="288">
-      <metadata name="_numEval" value="-40"/>
-      <metadata name="_qualEval" value="WeaklyDenied"/>
+      <metadata name="_numEval" value="53"/>
+      <metadata name="_qualEval" value="WeaklySatisfied"/>
     </actors>
     <links xsi:type="fm:MandatoryFMLink" name="Mandatory103" id="103" refs="//@urndef/@specDiagrams.0/@connections.0" dest="80" src="86" quantitativeContribution="100"/>
     <links xsi:type="fm:MandatoryFMLink" name="Mandatory107" id="107" refs="//@urndef/@specDiagrams.0/@connections.1" dest="15" src="23"/>
@@ -199,9 +208,7 @@
     <links xsi:type="fm:OptionalFMLink" name="Optional282" id="282" refs="//@urndef/@specDiagrams.0/@connections.21" dest="195" src="278" quantitativeContribution="100"/>
     <links xsi:type="fm:MandatoryFMLink" name="Mandatory284" id="284" refs="//@urndef/@specDiagrams.0/@connections.22" dest="38" src="164" quantitativeContribution="100"/>
     <links xsi:type="grl:Contribution" name="Contribution341" id="341" refs="//@urndef/@specDiagrams.1/@connections.0" dest="313" src="337" contribution="SomePositive" quantitativeContribution="75"/>
-    <links xsi:type="grl:Contribution" name="Contribution660" id="660" refs="//@urndef/@specDiagrams.1/@connections.1" dest="333" src="656"/>
-    <links xsi:type="grl:Contribution" name="Contribution664" id="664" refs="//@urndef/@specDiagrams.1/@connections.2" dest="313" src="333"/>
-    <links xsi:type="grl:Contribution" name="Contribution666" id="666" refs="//@urndef/@specDiagrams.1/@connections.3" dest="313" src="315"/>
+    <links xsi:type="grl:Contribution" name="Contribution664" id="664" refs="//@urndef/@specDiagrams.1/@connections.1" dest="313" src="333" contribution="SomePositive" quantitativeContribution="75"/>
     <links xsi:type="grl:Contribution" name="Contribution1430" id="1430" refs="//@urndef/@specDiagrams.2/@connections.0" dest="1420" src="195" contribution="SomePositive" quantitativeContribution="75"/>
     <links xsi:type="grl:Contribution" name="Contribution1431" id="1431" refs="//@urndef/@specDiagrams.2/@connections.1" dest="1420" src="179" contribution="SomePositive" quantitativeContribution="75"/>
     <links xsi:type="grl:Contribution" name="Contribution1432" id="1432" refs="//@urndef/@specDiagrams.2/@connections.2" dest="1420" src="262" quantitativeContribution="20"/>
@@ -213,6 +220,14 @@
     <links xsi:type="grl:Contribution" name="Contribution1438" id="1438" refs="//@urndef/@specDiagrams.2/@connections.8" dest="1422" src="38"/>
     <links xsi:type="grl:Contribution" name="Contribution1439" id="1439" refs="//@urndef/@specDiagrams.2/@connections.9" dest="1422" src="44"/>
     <links xsi:type="grl:Contribution" name="Contribution1440" id="1440" refs="//@urndef/@specDiagrams.2/@connections.10" dest="1422" src="137"/>
+    <links xsi:type="grl:Contribution" name="Contribution1818" id="1818" refs="//@urndef/@specDiagrams.3/@connections.0" dest="1812" src="21" contribution="Make" quantitativeContribution="100"/>
+    <links xsi:type="grl:Contribution" name="Contribution1820" id="1820" refs="//@urndef/@specDiagrams.3/@connections.1" dest="333" src="1812" contribution="SomePositive" quantitativeContribution="60"/>
+    <links xsi:type="grl:Contribution" name="Contribution1828" id="1828" refs="//@urndef/@specDiagrams.3/@connections.2" dest="1822" src="195" contribution="SomePositive" quantitativeContribution="75"/>
+    <links xsi:type="grl:Contribution" name="Contribution1829" id="1829" refs="//@urndef/@specDiagrams.3/@connections.3" dest="1822" src="179"/>
+    <links xsi:type="grl:Contribution" name="Contribution1830" id="1830" refs="//@urndef/@specDiagrams.3/@connections.4" dest="1822" src="150"/>
+    <links xsi:type="grl:Contribution" name="Contribution1831" id="1831" refs="//@urndef/@specDiagrams.3/@connections.5" dest="333" src="1822" quantitativeContribution="40"/>
+    <links xsi:type="grl:Contribution" name="Contribution1933" id="1933" refs="//@urndef/@specDiagrams.1/@connections.2" dest="656" src="72" contribution="Make" quantitativeContribution="100"/>
+    <links xsi:type="grl:Contribution" name="Contribution1935" id="1935" refs="//@urndef/@specDiagrams.3/@connections.6" dest="1812" src="195"/>
     <groups name="App Versions" id="5" strategies="271 272"/>
     <strategies name="Standard" id="271" author="georgekontorousis" group="5" includedStrategies="272">
       <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="98">
@@ -460,40 +475,37 @@
       </connections>
     </specDiagrams>
     <specDiagrams xsi:type="grl:GRLGraph" name="Stakeholders - MEC CEO" id="286">
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef314" id="314" x="241" y="154" contRef="288" pred="//@urndef/@specDiagrams.1/@connections.0 //@urndef/@specDiagrams.1/@connections.2 //@urndef/@specDiagrams.1/@connections.3" def="313">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef314" id="314" x="241" y="154" contRef="288" pred="//@urndef/@specDiagrams.1/@connections.0 //@urndef/@specDiagrams.1/@connections.1" def="313">
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef316" id="316" x="304" y="325" contRef="288" succ="//@urndef/@specDiagrams.1/@connections.3" def="315">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef334" id="334" x="78" y="314" contRef="288" succ="//@urndef/@specDiagrams.1/@connections.1" def="333">
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef334" id="334" x="64" y="338" contRef="288" succ="//@urndef/@specDiagrams.1/@connections.2" pred="//@urndef/@specDiagrams.1/@connections.1" def="333">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef338" id="338" x="418" y="312" contRef="288" succ="//@urndef/@specDiagrams.1/@connections.0" def="337">
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef338" id="338" x="470" y="292" contRef="288" succ="//@urndef/@specDiagrams.1/@connections.0" def="337">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef657" id="657" x="346" y="411" contRef="288" pred="//@urndef/@specDiagrams.1/@connections.2" def="656">
         <metadata name="_height" value="45"/>
         <metadata name="_width" value="110"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef657" id="657" x="186" y="466" contRef="288" succ="//@urndef/@specDiagrams.1/@connections.1" def="656">
-        <metadata name="_height" value="45"/>
-        <metadata name="_width" value="110"/>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1932" id="1932" x="565" y="590" contRef="288" succ="//@urndef/@specDiagrams.1/@connections.2" def="72">
+        <metadata name="_height" value="49"/>
+        <metadata name="_width" value="130"/>
       </nodes>
-      <contRefs xsi:type="grl:ActorRef" name="ActorRef288" id="288" x="31" y="36" width="583" height="585" contDef="287" nodes="314 316 334 338 657">
+      <contRefs xsi:type="grl:ActorRef" name="ActorRef288" id="288" x="31" y="36" width="583" height="585" contDef="287" nodes="314 334 338 657 1932">
         <label/>
       </contRefs>
       <connections xsi:type="grl:LinkRef" source="338" target="314" link="341">
-        <label deltaX="64" deltaY="-24"/>
-      </connections>
-      <connections xsi:type="grl:LinkRef" source="657" target="334" link="660">
-        <label deltaX="30" deltaY="-30"/>
+        <label deltaX="-21" deltaY="-51"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="334" target="314" link="664">
         <label deltaX="30" deltaY="-30"/>
       </connections>
-      <connections xsi:type="grl:LinkRef" source="316" target="314" link="666">
-        <label deltaX="30" deltaY="-30"/>
+      <connections xsi:type="grl:LinkRef" source="1932" target="657" link="1933">
+        <label deltaX="17" deltaY="-39"/>
       </connections>
     </specDiagrams>
     <specDiagrams xsi:type="grl:GRLGraph" name="ICS - minimize cost" id="1056">
@@ -579,6 +591,58 @@
         <label deltaX="30" deltaY="-30"/>
       </connections>
     </specDiagrams>
+    <specDiagrams xsi:type="grl:GRLGraph" name="ICS - Increase mall foot traffic" id="1442">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1445" id="1445" x="439" y="45" pred="//@urndef/@specDiagrams.3/@connections.1 //@urndef/@specDiagrams.3/@connections.5" def="333">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1552" id="1552" x="121" y="402" succ="//@urndef/@specDiagrams.3/@connections.0" def="21">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1619" id="1619" x="414" y="400" succ="//@urndef/@specDiagrams.3/@connections.2 //@urndef/@specDiagrams.3/@connections.6" def="195">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1679" id="1679" x="643" y="406" succ="//@urndef/@specDiagrams.3/@connections.3" def="179">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1811" id="1811" x="849" y="404" succ="//@urndef/@specDiagrams.3/@connections.4" def="150">
+        <metadata name="_height" value="49"/>
+        <metadata name="_width" value="130"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1813" id="1813" x="221" y="188" succ="//@urndef/@specDiagrams.3/@connections.1" pred="//@urndef/@specDiagrams.3/@connections.0 //@urndef/@specDiagrams.3/@connections.6" def="1812">
+        <metadata name="_height" value="49"/>
+        <metadata name="_width" value="131"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef1823" id="1823" x="619" y="194" succ="//@urndef/@specDiagrams.3/@connections.5" pred="//@urndef/@specDiagrams.3/@connections.2 //@urndef/@specDiagrams.3/@connections.3 //@urndef/@specDiagrams.3/@connections.4" def="1822">
+        <metadata name="_height" value="54"/>
+        <metadata name="_width" value="127"/>
+      </nodes>
+      <connections xsi:type="grl:LinkRef" source="1552" target="1813" link="1818">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="1813" target="1445" link="1820">
+        <label deltaX="22" deltaY="-55"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="1619" target="1823" link="1828">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="1679" target="1823" link="1829">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="1811" target="1823" link="1830">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="1823" target="1445" link="1831">
+        <label deltaX="-20" deltaY="-47"/>
+      </connections>
+      <connections xsi:type="grl:LinkRef" source="1619" target="1813" link="1935">
+        <label deltaX="30" deltaY="-30"/>
+      </connections>
+    </specDiagrams>
+    <specDiagrams xsi:type="grl:GRLGraph" name="Increase MEC popularity" id="1443"/>
   </urndef>
   <metadata name="_Use0to100EvaluationRange" value="false"/>
   <dynamicContexts name="DynamicContext14" id="14" groups="13"/>
